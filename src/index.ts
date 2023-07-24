@@ -28,8 +28,8 @@ const database = accounts as Accounts
     waitUntil: 'networkidle0',
   })
 
-  await page.click('button._a9--._a9_0')
-  await sleep(1000)
+  // await page.click('button._a9--._a9_0')
+  // await sleep(1000)
 
   await page.type('[name="username"]', process.env.LOGIN)
   await sleep(1500)
